@@ -13,5 +13,6 @@ Do you want to go somewhere more quiet? Are you or your family or friends afraid
 
 With this app, you'll be able to see a heat map of noise level around you with our IoT deployed all over the city (someday in the future). It is fast and easy to install, while being very intuitve to use.
 
-## Usages
+## Screenshots
 
+![noize_screenshots](https://user-images.githubusercontent.com/21986859/49332810-ef596680-f581-11e8-963f-abad606f49be.png)
