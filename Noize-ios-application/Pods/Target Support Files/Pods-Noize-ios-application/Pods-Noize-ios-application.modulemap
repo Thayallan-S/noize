@@ -1,0 +1,6 @@
+framework module Pods_Noize_ios_application {
+  umbrella header "Pods-Noize-ios-application-umbrella.h"
+
+  export *
+  module * { export * }
+}
