@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5334BC2421B2FCC700288914 /* LocationsFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC2321B2FCC700288914 /* LocationsFlowController.swift */; };
+		5334BC2621B2FE0500288914 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC2521B2FE0500288914 /* LocationsViewController.swift */; };
+		5334BC2921B302A400288914 /* LocationsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC2821B302A400288914 /* LocationsCardView.swift */; };
+		5334BC2B21B3145E00288914 /* LocationsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC2A21B3145E00288914 /* LocationsScrollView.swift */; };
+		5334BC2D21B31ADF00288914 /* LocationsViewMapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC2C21B31ADF00288914 /* LocationsViewMapButton.swift */; };
+		5334BC2F21B320D100288914 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC2E21B320D100288914 /* MapViewController.swift */; };
+		5334BC3121B321F000288914 /* ViewMapBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC3021B321F000288914 /* ViewMapBackButtonView.swift */; };
+		5334BC3321B329F400288914 /* NoizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC3221B329F400288914 /* NoizeViewController.swift */; };
+		5334BC3521B32FBF00288914 /* RecentNoiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC3421B32FBF00288914 /* RecentNoiseView.swift */; };
+		5334BC3721B3320F00288914 /* NoizeBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC3621B3320F00288914 /* NoizeBackButtonView.swift */; };
+		5334BC3921B3389E00288914 /* MosquittoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334BC3821B3389E00288914 /* MosquittoServer.swift */; };
+		53FDEBB921B1E70000C4BF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBB821B1E70000C4BF58 /* AppDelegate.swift */; };
+		53FDEBC021B1E70300C4BF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FDEBBF21B1E70300C4BF58 /* Assets.xcassets */; };
+		53FDEBC321B1E70300C4BF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FDEBC121B1E70300C4BF58 /* LaunchScreen.storyboard */; };
+		53FDEBCF21B1E8DD00C4BF58 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBCE21B1E8DD00C4BF58 /* SplashViewController.swift */; };
+		53FDEBD121B1E8EE00C4BF58 /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBD021B1E8EE00C4BF58 /* AppFlowController.swift */; };
+		53FDEBD321B1E96300C4BF58 /* splash-view-controller-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 53FDEBD221B1E96300C4BF58 /* splash-view-controller-animation.json */; };
+		53FDEBD621B1E97700C4BF58 /* NoizeDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBD421B1E97700C4BF58 /* NoizeDevice.swift */; };
+		53FDEBD721B1E97700C4BF58 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBD521B1E97700C4BF58 /* UI.swift */; };
+		53FDEBD921B1E9E300C4BF58 /* UIColor+HexValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBD821B1E9E300C4BF58 /* UIColor+HexValue.swift */; };
+		53FDEBDB21B1E9E900C4BF58 /* UIViewController+AddRemoveChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBDA21B1E9E900C4BF58 /* UIViewController+AddRemoveChildren.swift */; };
+		53FDEBDE21B1EDDE00C4BF58 /* HomeFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBDD21B1EDDE00C4BF58 /* HomeFlowController.swift */; };
+		53FDEBE021B1EE1300C4BF58 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBDF21B1EE1300C4BF58 /* HomeTabBarController.swift */; };
+		53FDEBE221B1EE8F00C4BF58 /* ComingSoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBE121B1EE8F00C4BF58 /* ComingSoonViewController.swift */; };
+		53FDEBE421B1F01600C4BF58 /* NoizeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBE321B1F01600C4BF58 /* NoizeNavigationController.swift */; };
+		53FDEBE621B1FE7400C4BF58 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBE521B1FE7400C4BF58 /* HomeViewController.swift */; };
+		53FDEBE921B1FF7500C4BF58 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBE821B1FF7500C4BF58 /* HomeHeaderView.swift */; };
+		53FDEBEB21B20F3C00C4BF58 /* HomeSearchTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBEA21B20F3C00C4BF58 /* HomeSearchTextView.swift */; };
+		53FDEBED21B2158500C4BF58 /* HomeLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDEBEC21B2158500C4BF58 /* HomeLocationsView.swift */; };
+		828F3FAE4C502C266A702A14 /* Pods_Noize_ios_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30D3614AAB41907E8997117 /* Pods_Noize_ios_application.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5334BC2321B2FCC700288914 /* LocationsFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsFlowController.swift; sourceTree = "<group>"; };
+		5334BC2521B2FE0500288914 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		5334BC2821B302A400288914 /* LocationsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsCardView.swift; sourceTree = "<group>"; };
+		5334BC2A21B3145E00288914 /* LocationsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsScrollView.swift; sourceTree = "<group>"; };
+		5334BC2C21B31ADF00288914 /* LocationsViewMapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewMapButton.swift; sourceTree = "<group>"; };
+		5334BC2E21B320D100288914 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5334BC3021B321F000288914 /* ViewMapBackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMapBackButtonView.swift; sourceTree = "<group>"; };
+		5334BC3221B329F400288914 /* NoizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoizeViewController.swift; sourceTree = "<group>"; };
+		5334BC3421B32FBF00288914 /* RecentNoiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentNoiseView.swift; sourceTree = "<group>"; };
+		5334BC3621B3320F00288914 /* NoizeBackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoizeBackButtonView.swift; sourceTree = "<group>"; };
+		5334BC3821B3389E00288914 /* MosquittoServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosquittoServer.swift; sourceTree = "<group>"; };
+		53FDEBB521B1E70000C4BF58 /* Noize-ios-application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noize-ios-application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FDEBB821B1E70000C4BF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53FDEBBF21B1E70300C4BF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53FDEBC221B1E70300C4BF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53FDEBC421B1E70300C4BF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FDEBCE21B1E8DD00C4BF58 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		53FDEBD021B1E8EE00C4BF58 /* AppFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
+		53FDEBD221B1E96300C4BF58 /* splash-view-controller-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "splash-view-controller-animation.json"; sourceTree = "<group>"; };
+		53FDEBD421B1E97700C4BF58 /* NoizeDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoizeDevice.swift; sourceTree = "<group>"; };
+		53FDEBD521B1E97700C4BF58 /* UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		53FDEBD821B1E9E300C4BF58 /* UIColor+HexValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexValue.swift"; sourceTree = "<group>"; };
+		53FDEBDA21B1E9E900C4BF58 /* UIViewController+AddRemoveChildren.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+AddRemoveChildren.swift"; sourceTree = "<group>"; };
+		53FDEBDD21B1EDDE00C4BF58 /* HomeFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFlowController.swift; sourceTree = "<group>"; };
+		53FDEBDF21B1EE1300C4BF58 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		53FDEBE121B1EE8F00C4BF58 /* ComingSoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonViewController.swift; sourceTree = "<group>"; };
+		53FDEBE321B1F01600C4BF58 /* NoizeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoizeNavigationController.swift; sourceTree = "<group>"; };
+		53FDEBE521B1FE7400C4BF58 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		53FDEBE821B1FF7500C4BF58 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		53FDEBEA21B20F3C00C4BF58 /* HomeSearchTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchTextView.swift; sourceTree = "<group>"; };
+		53FDEBEC21B2158500C4BF58 /* HomeLocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocationsView.swift; sourceTree = "<group>"; };
+		825C1868CE2EFE4FB4E47FC0 /* Pods-Noize-ios-application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noize-ios-application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noize-ios-application/Pods-Noize-ios-application.debug.xcconfig"; sourceTree = "<group>"; };
+		D30D3614AAB41907E8997117 /* Pods_Noize_ios_application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noize_ios_application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA45828D33C3668915F00B0E /* Pods-Noize-ios-application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noize-ios-application.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noize-ios-application/Pods-Noize-ios-application.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53FDEBB221B1E70000C4BF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828F3FAE4C502C266A702A14 /* Pods_Noize_ios_application.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337B0FC1073D131D89330555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				825C1868CE2EFE4FB4E47FC0 /* Pods-Noize-ios-application.debug.xcconfig */,
+				DA45828D33C3668915F00B0E /* Pods-Noize-ios-application.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35A9C09398411F1676AC462B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30D3614AAB41907E8997117 /* Pods_Noize_ios_application.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5334BC2221B2FC7A00288914 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				5334BC2721B3028300288914 /* Views */,
+				5334BC2321B2FCC700288914 /* LocationsFlowController.swift */,
+				5334BC2521B2FE0500288914 /* LocationsViewController.swift */,
+				5334BC2E21B320D100288914 /* MapViewController.swift */,
+				5334BC3221B329F400288914 /* NoizeViewController.swift */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		5334BC2721B3028300288914 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5334BC2821B302A400288914 /* LocationsCardView.swift */,
+				5334BC2A21B3145E00288914 /* LocationsScrollView.swift */,
+				5334BC2C21B31ADF00288914 /* LocationsViewMapButton.swift */,
+				5334BC3021B321F000288914 /* ViewMapBackButtonView.swift */,
+				5334BC3421B32FBF00288914 /* RecentNoiseView.swift */,
+				5334BC3621B3320F00288914 /* NoizeBackButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53FDEBAC21B1E70000C4BF58 = {
+			isa = PBXGroup;
+			children = (
+				53FDEBB721B1E70000C4BF58 /* Noize-ios-application */,
+				53FDEBB621B1E70000C4BF58 /* Products */,
+				337B0FC1073D131D89330555 /* Pods */,
+				35A9C09398411F1676AC462B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53FDEBB621B1E70000C4BF58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53FDEBB521B1E70000C4BF58 /* Noize-ios-application.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53FDEBB721B1E70000C4BF58 /* Noize-ios-application */ = {
+			isa = PBXGroup;
+			children = (
+				53FDEBC421B1E70300C4BF58 /* Info.plist */,
+				53FDEBC121B1E70300C4BF58 /* LaunchScreen.storyboard */,
+				53FDEBCE21B1E8DD00C4BF58 /* SplashViewController.swift */,
+				53FDEBB821B1E70000C4BF58 /* AppDelegate.swift */,
+				53FDEBD021B1E8EE00C4BF58 /* AppFlowController.swift */,
+				53FDEBCA21B1E86A00C4BF58 /* Features */,
+				53FDEBCB21B1E87000C4BF58 /* Extensions */,
+				53FDEBCC21B1E87600C4BF58 /* Global */,
+				53FDEBCD21B1E87C00C4BF58 /* Resources */,
+			);
+			path = "Noize-ios-application";
+			sourceTree = "<group>";
+		};
+		53FDEBCA21B1E86A00C4BF58 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5334BC3821B3389E00288914 /* MosquittoServer.swift */,
+				53FDEBDF21B1EE1300C4BF58 /* HomeTabBarController.swift */,
+				53FDEBE121B1EE8F00C4BF58 /* ComingSoonViewController.swift */,
+				53FDEBE321B1F01600C4BF58 /* NoizeNavigationController.swift */,
+				53FDEBDC21B1EAE000C4BF58 /* Home */,
+				5334BC2221B2FC7A00288914 /* Locations */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		53FDEBCB21B1E87000C4BF58 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53FDEBDA21B1E9E900C4BF58 /* UIViewController+AddRemoveChildren.swift */,
+				53FDEBD821B1E9E300C4BF58 /* UIColor+HexValue.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53FDEBCC21B1E87600C4BF58 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				53FDEBD521B1E97700C4BF58 /* UI.swift */,
+				53FDEBD421B1E97700C4BF58 /* NoizeDevice.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		53FDEBCD21B1E87C00C4BF58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53FDEBD221B1E96300C4BF58 /* splash-view-controller-animation.json */,
+				53FDEBBF21B1E70300C4BF58 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53FDEBDC21B1EAE000C4BF58 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				53FDEBE721B1FF1F00C4BF58 /* Views */,
+				53FDEBDD21B1EDDE00C4BF58 /* HomeFlowController.swift */,
+				53FDEBE521B1FE7400C4BF58 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		53FDEBE721B1FF1F00C4BF58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53FDEBE821B1FF7500C4BF58 /* HomeHeaderView.swift */,
+				53FDEBEA21B20F3C00C4BF58 /* HomeSearchTextView.swift */,
+				53FDEBEC21B2158500C4BF58 /* HomeLocationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53FDEBB421B1E70000C4BF58 /* Noize-ios-application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FDEBC721B1E70300C4BF58 /* Build configuration list for PBXNativeTarget "Noize-ios-application" */;
+			buildPhases = (
+				45E6A304FEEB9272A37E5F60 /* [CP] Check Pods Manifest.lock */,
+				53FDEBB121B1E70000C4BF58 /* Sources */,
+				53FDEBB221B1E70000C4BF58 /* Frameworks */,
+				53FDEBB321B1E70000C4BF58 /* Resources */,
+				975AA8C4F4EB4B0DF80AB7C2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noize-ios-application";
+			productName = "Noize-ios-application";
+			productReference = 53FDEBB521B1E70000C4BF58 /* Noize-ios-application.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53FDEBAD21B1E70000C4BF58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Noize;
+				TargetAttributes = {
+					53FDEBB421B1E70000C4BF58 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 53FDEBB021B1E70000C4BF58 /* Build configuration list for PBXProject "Noize-ios-application" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53FDEBAC21B1E70000C4BF58;
+			productRefGroup = 53FDEBB621B1E70000C4BF58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53FDEBB421B1E70000C4BF58 /* Noize-ios-application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53FDEBB321B1E70000C4BF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FDEBC321B1E70300C4BF58 /* LaunchScreen.storyboard in Resources */,
+				53FDEBC021B1E70300C4BF58 /* Assets.xcassets in Resources */,
+				53FDEBD321B1E96300C4BF58 /* splash-view-controller-animation.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45E6A304FEEB9272A37E5F60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noize-ios-application-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		975AA8C4F4EB4B0DF80AB7C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Noize-ios-application/Pods-Noize-ios-application-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/Moscapsule/Moscapsule.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moscapsule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noize-ios-application/Pods-Noize-ios-application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FDEBB121B1E70000C4BF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5334BC2D21B31ADF00288914 /* LocationsViewMapButton.swift in Sources */,
+				5334BC2421B2FCC700288914 /* LocationsFlowController.swift in Sources */,
+				5334BC3921B3389E00288914 /* MosquittoServer.swift in Sources */,
+				53FDEBEB21B20F3C00C4BF58 /* HomeSearchTextView.swift in Sources */,
+				5334BC2621B2FE0500288914 /* LocationsViewController.swift in Sources */,
+				53FDEBDE21B1EDDE00C4BF58 /* HomeFlowController.swift in Sources */,
+				5334BC3321B329F400288914 /* NoizeViewController.swift in Sources */,
+				5334BC2B21B3145E00288914 /* LocationsScrollView.swift in Sources */,
+				53FDEBD121B1E8EE00C4BF58 /* AppFlowController.swift in Sources */,
+				53FDEBE921B1FF7500C4BF58 /* HomeHeaderView.swift in Sources */,
+				53FDEBD921B1E9E300C4BF58 /* UIColor+HexValue.swift in Sources */,
+				53FDEBB921B1E70000C4BF58 /* AppDelegate.swift in Sources */,
+				53FDEBED21B2158500C4BF58 /* HomeLocationsView.swift in Sources */,
+				5334BC2921B302A400288914 /* LocationsCardView.swift in Sources */,
+				53FDEBDB21B1E9E900C4BF58 /* UIViewController+AddRemoveChildren.swift in Sources */,
+				5334BC2F21B320D100288914 /* MapViewController.swift in Sources */,
+				53FDEBE021B1EE1300C4BF58 /* HomeTabBarController.swift in Sources */,
+				53FDEBD621B1E97700C4BF58 /* NoizeDevice.swift in Sources */,
+				53FDEBD721B1E97700C4BF58 /* UI.swift in Sources */,
+				5334BC3721B3320F00288914 /* NoizeBackButtonView.swift in Sources */,
+				5334BC3521B32FBF00288914 /* RecentNoiseView.swift in Sources */,
+				53FDEBE221B1EE8F00C4BF58 /* ComingSoonViewController.swift in Sources */,
+				53FDEBE421B1F01600C4BF58 /* NoizeNavigationController.swift in Sources */,
+				5334BC3121B321F000288914 /* ViewMapBackButtonView.swift in Sources */,
+				53FDEBCF21B1E8DD00C4BF58 /* SplashViewController.swift in Sources */,
+				53FDEBE621B1FE7400C4BF58 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53FDEBC121B1E70300C4BF58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FDEBC221B1E70300C4BF58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53FDEBC521B1E70300C4BF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53FDEBC621B1E70300C4BF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53FDEBC821B1E70300C4BF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825C1868CE2EFE4FB4E47FC0 /* Pods-Noize-ios-application.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NK52B9LMW;
+				INFOPLIST_FILE = "Noize-ios-application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Noize.Noize-ios-application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53FDEBC921B1E70300C4BF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA45828D33C3668915F00B0E /* Pods-Noize-ios-application.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NK52B9LMW;
+				INFOPLIST_FILE = "Noize-ios-application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Noize.Noize-ios-application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53FDEBB021B1E70000C4BF58 /* Build configuration list for PBXProject "Noize-ios-application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FDEBC521B1E70300C4BF58 /* Debug */,
+				53FDEBC621B1E70300C4BF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FDEBC721B1E70300C4BF58 /* Build configuration list for PBXNativeTarget "Noize-ios-application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FDEBC821B1E70300C4BF58 /* Debug */,
+				53FDEBC921B1E70300C4BF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53FDEBAD21B1E70000C4BF58 /* Project object */;
+}
