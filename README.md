@@ -10,7 +10,7 @@
 
 # Noize
 
-Project proudly developed during MLH Local Hack Day December 1, 2018 at UTSC.
+Project proudly developed during MLH Hack Day at the University of Toronto.
 
 ## Description
 
